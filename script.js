@@ -12,7 +12,7 @@ emailInput.addEventListener('input', function () {
 
 submitButton.addEventListener('click', function () {
     if (isValidEmail(emailInput.value)) {
-        result.textContent = 'Bu bir mail adresi: ' + emailInput.value;
+        result.textContent = 'Mail adresi doğrulaması başarılı: ' + emailInput.value;
     }
 });
 
